@@ -1,4 +1,5 @@
 body {
+    background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
@@ -21,13 +22,12 @@ body {
 
 .nav {
     list-style: none;
-    background-color: gray;
     background-image: url("matière/back1.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
-    padding: 200px;
     height: 200px;
+    padding: 200px;
     margin: 0;
     text-align: center;
 }
@@ -55,19 +55,32 @@ nav li:hover {
     color: black;
 }
 
-ul.demo {
-    background-color: black;
-    color: white;
-    padding: 400px;
-    margin: 0;
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 header.me {
     background-color: rgb(102, 102, 102);
     color: white;
-    padding: 30px;
+    padding: 35px;
     text-align: center;
     font-size: 80px;
+    position: relative;
+}
+
+.bl {
+    position: relative;
+    bottom: 50px;
+    right: -1%;
+    margin: 0;
+}
+
+.br {
+    position: relative;
+    bottom : 50px;
+    left: 95%;
+    margin: 0;
 }
 
 header.div {
@@ -76,6 +89,8 @@ header.div {
     padding: 15px;
     text-align: center;
     font-size: 30px;
+    position: relative;
+    bottom: 30px;
 }
 
 ul.container {
@@ -86,8 +101,9 @@ ul.container {
     height: 50%;
     justify-content: space-between;
     flex-wrap: wrap;
-
     margin: 0;
+    position: relative;
+    bottom: 30px;
 }
 
 ul.container-b {
@@ -99,6 +115,8 @@ ul.container-b {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0;
+    position: relative;
+    bottom: 30px;
 }
 
 li {
@@ -155,7 +173,10 @@ li.gif {
 footer {
     background-color: black;
     color : white;
-    height: 30px;
+    height: 40px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+
+    position: relative;
+    bottom: +15px;
 }
