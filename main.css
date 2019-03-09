@@ -33,7 +33,7 @@ body {
 }
 
 .nav:hover  {
-    background-image: url("matière/back2.png")
+    background-image: url("matière/back2.gif")
 }
 
 nav li {
@@ -67,6 +67,15 @@ header.me {
     text-align: center;
     font-size: 80px;
     position: relative;
+}
+
+ul.front-cnt {
+    background-color: black;
+    color: white;
+    height: 700px;
+    position: relative;
+    bottom: 15px;
+    right: 20px;
 }
 
 .bl {

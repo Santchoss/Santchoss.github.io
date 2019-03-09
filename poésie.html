@@ -19,6 +19,92 @@
 
 <body>
     
+    <header class="me">
+        JULIE CHENAL
+    </header>
+
+    <div class="w3-content w3-display-container">
+ 
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p10.jpg" style="width:100%; height: 800px;">
+        </div>
+        
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p1.png" style="width:100%; height:800px;">
+        </div>
+        
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p2.png" style="width:100%; height: 800px;">
+        </div>
+            
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p11.jpg" style="width:100%; height:800px;">
+        </div>
+
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p12.jpg" style="width:100%; height: 800px;">
+        </div>
+            
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p13.JPG" style="width:100%; height:800px;">
+        </div>
+            
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p3.png" style="width:100%; height:800px;">
+        </div>
+                
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p14.JPG" style="width:100%; height:800px;">
+        </div>
+
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p5.png" style="width:100%; height:800px;">
+        </div>
+    
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p4.png" style="width:100%; height:800px;">
+        </div>
+                
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p6.png" style="width:100%; height:800px;">
+        </div>
+                
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p7.png" style="width:100%; height:800px;">
+        </div>
+                    
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p8.jpg" style="width:100%; height:800px;">
+        </div>
+
+        <div class="w3-display-container mySlides">
+        <img src="matière/photos/p9.jpg" style="width:100%; height:800px;">
+        </div>
+
+        <button class="bl" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="br" onclick="plusDivs(1)">&#10095;</button>
+        
+    </div>
+        
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
 
 
 </body>
