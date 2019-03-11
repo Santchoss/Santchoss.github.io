@@ -93,7 +93,7 @@ ul.front-cnt {
 }
 
 header.div {
-    background-color: rgb(102, 102, 102);
+    background-color: #f747d750;
     color: white;
     padding: 15px;
     text-align: center;
@@ -103,7 +103,7 @@ header.div {
 }
 
 ul.container {
-    background-color: rgb(126, 61, 190);
+    background-color: #312f5d ;
     background-position: center;
     list-style: none;
     display: flex;
@@ -116,7 +116,7 @@ ul.container {
 }
 
 ul.container-b {
-    background-color: rgb(55, 27, 92);
+    background-color: #75529b;
     background-position: center;
     list-style: none;
     display: flex;
@@ -157,7 +157,7 @@ li.item-a {
 }
 
 li.item-b {
-    background-color: rgb(136, 88, 184);
+    background-color: #503a6a;
     color: white;
     border-width: 5px;
     border-radius: 20px;
@@ -175,7 +175,7 @@ li.item-c {
 }
 
 li.item-d {
-    background-color: rgb(66, 40, 100);
+    background-color: #ae6fe6;
     color: white;
     border-width: 5px;
     border-radius: 20px;
