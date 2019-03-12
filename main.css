@@ -91,6 +91,7 @@ div.mySlides {
 }
 
 pre {
+    text-align: center;
     color: white;
     font-weight: bold;
     line-height: 1.4;
@@ -98,26 +99,30 @@ pre {
 
 .bl {
     position: relative;
-    bottom: +50px;
-    left: 48%;
+    bottom: +60px;
+    left: 1%;
 }
 
 .br {
     position: relative;
-    bottom: +50px;
-    left: 48%;
+    bottom: +60px;
+    left: 93%;
 }
 
 .bl-b {
     position: relative;
     bottom: +50px;
-    left: 47%;
+    left: 45%;
+    padding: 0.5%;
+    width: 2.5%;
 }
 
 .br-b {
     position: relative;
     bottom: +50px;
     left: 47%;
+    padding: 0.5%;
+    width: 2.5%;
 }
 
 header.div {
@@ -186,6 +191,7 @@ li.item-a {
 
 li.item-b {
     color: white;
+    line-height: 1.4;
     border-width: 5px;
     border-radius: 20px;
     width: 800px;
@@ -203,6 +209,7 @@ li.item-c {
 
 li.item-d {
     color: white;
+    line-height: 1.4;
     border-width: 5px;
     border-radius: 20px;
     width: 800px;
