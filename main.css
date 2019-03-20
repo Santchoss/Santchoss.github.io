@@ -241,6 +241,18 @@ li.gif {
     border-radius: 30px;
 }
 
+li.item-ami {
+    background-image: url("matière/lami_1.png");
+    background-size: 100%;
+    width: 560px;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.item-ami:hover {
+    background-image: url("matière/lami_2.png");
+}
+
 footer {
     background-color: black;
     color : white;
